@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona Foto</title>
+    <title>Zaczarowany kadr by Klaudia</title>
     <link rel="stylesheet" href="css/style.css">
 
     <meta charset="UTF-8">
@@ -15,28 +15,65 @@
 
 <body>
 
-    <h1>
-        <nav>
-            <ul>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#o-mnie">O mnie</a></li>
-                <li><a href="#cennik">Cennik</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-        </nav>
-    </h1>
+    <menu>
+        <h1>
+
+        </h1>
+    </menu>
 
     <header>
-        <img src="img/avatar.png" width="100px" height="100px" />
-        <h1>Zaczarowany kadr
-            <p>
-                by Klaudia
-            </p>
-        </h1>
+        <div class="header-bar">
 
+            <div class="header-bar__logo-box">
+                <img src="img/jasne.png" alt="logo" class="header-bar__logo-box--1">
+                <h4 class="heading-4 header-bar__logo-box--2">Stan</h4>
+            </div>
+
+            <nav class="nav">
+                <li class="nav__link">
+                    <a href="#galeria" class="nav__link--1 active">
+                        <span>Galeria</span>
+                    </a>
+                </li>
+
+                <li class="nav__link">
+                    <a href="#o mnie" class="nav__link--1">
+                        <span>O mnie</span>
+                    </a>
+                </li>
+
+                <li class="nav__link">
+                    <a href="#oferta" class="nav__link--1">
+                        <span>Oferta</span>
+                    </a>
+                </li>
+
+                <li class="nav__link">
+                    <a href="#contact" class="nav__link--1">
+                        <span>Kontakt</span>
+                    </a>
+                </li>
+
+                <li class="nav__phone">
+                    <a href="tel:515151515" class="nav__phone">
+                        <!--<img src="img/telephone white.png"> -->
+                        <svg>
+                            <use xlink:href="img/telephone.svg#Capa_1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </nav>
+        </div>
     </header>
 
     <main>
+
+        <section>
+            <img src="img/avatar.png" />
+            <h1>Zaczarowany kadr by Klaudia
+            </h1>
+        </section>
+
         <section id="galeria">
             <h2>Galeria</h2>
             <div id="gallery-container">
